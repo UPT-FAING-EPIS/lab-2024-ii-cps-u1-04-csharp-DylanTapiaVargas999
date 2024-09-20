@@ -3,7 +3,7 @@ env:
   DOTNET_VERSION: '7.0'                     # la versión de .NET
   SONAR_ORG: 'dylanorganizacion'            # Nombre de la organización en SonarCloud
   SONAR_PROJECT: 'dylanorganizacion_apibank' # Key ID del proyecto en SonarCloud
-    SONAR_TOKEN: '19656be27fad8f4c08a26ac28b2d04dfd14e9894'  # Token de SonarCloud
+  SONAR_TOKEN: '19656be27fad8f4c08a26ac28b2d04dfd14e9894'  # Token de SonarCloud
 on:
   push:
     branches: [ "main" ]
