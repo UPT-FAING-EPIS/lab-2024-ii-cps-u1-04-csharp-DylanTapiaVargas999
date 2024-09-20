@@ -1,19 +1,23 @@
 using Bank.WebApi.Models;
 using NUnit.Framework;
-using NUnitAssert = NUnit.Framework.Assert;
-using MSTestAssert = Microsoft.VisualStudio.TestTools.UnitTesting.Assert;
 
-namespace Bank.WebApi.Tests
+namespace Bank.Domain.Tests
 {
-    [TestFixture]
-    public class BanckAccountTests
+    public class BankAccountTests
     {
         [Test]
-        public void TestMethod()
+        public void Debit_WithValidAmount_UpdatesBalance()
         {
-            // Usa NUnitAssert o MSTestAssert según sea necesario
-            NUnitAssert.AreEqual(1, 1);
-            // MSTestAssert.AreEqual(1, 1); // Si necesitas usar MSTest
+            // Arrange
+            double beginningBalance = 11.99;
+            double debitAmount = 4.55;
+            double expected = 7.44;
+            BankAccount account = new BankAccount("Mr. Bryan Walton", beginningBalance);
+            // Act
+            account.Debit(debitAmount);
+            // Assert
+            double actual = account.Balance;
+            Assert.AreEqual(expected, actual, 0.001, "Account not debited correctly");
         }
     }
 }
