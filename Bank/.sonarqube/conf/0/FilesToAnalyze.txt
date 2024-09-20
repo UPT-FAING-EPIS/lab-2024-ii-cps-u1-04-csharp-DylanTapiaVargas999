@@ -1,11 +1,10 @@
-﻿C:\Users\HP\Desktop\Nueva carpeta\lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999\Bank\Bank.WebApi\Controllers\WeatherForecastController.cs
-C:\Users\HP\Desktop\Nueva carpeta\lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999\Bank\Bank.WebApi\Models\BankAccount.cs
-C:\Users\HP\Desktop\Nueva carpeta\lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999\Bank\Bank.WebApi\Program.cs
-C:\Users\HP\Desktop\Nueva carpeta\lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999\Bank\Bank.WebApi\WeatherForecast.cs
-C:\Users\HP\Desktop\Nueva carpeta\lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999\Bank\Bank.WebApi\obj\Debug\net7.0\Bank.WebApi.GlobalUsings.g.cs
-C:\Users\HP\Desktop\Nueva carpeta\lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999\Bank\Bank.WebApi\obj\Debug\net7.0\.NETCoreApp,Version=v7.0.AssemblyAttributes.cs
-C:\Users\HP\Desktop\Nueva carpeta\lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999\Bank\Bank.WebApi\obj\Debug\net7.0\Bank.WebApi.AssemblyInfo.cs
-C:\Users\HP\Desktop\Nueva carpeta\lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999\Bank\Bank.WebApi\obj\Debug\net7.0\Bank.WebApi.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\HP\Desktop\Nueva carpeta\lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999\Bank\Bank.WebApi\appsettings.Development.json
-C:\Users\HP\Desktop\Nueva carpeta\lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999\Bank\Bank.WebApi\appsettings.json
-C:\Users\HP\Desktop\Nueva carpeta\lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999\Bank\Bank.WebApi\Properties\launchSettings.json
+﻿C:\Users\dylan\OneDrive\Escritorio\Nueva carpeta (3)\lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999\Bank\Bank.WebApi\Models\BankAccount.cs
+C:\Users\dylan\OneDrive\Escritorio\Nueva carpeta (3)\lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999\Bank\Bank.WebApi\Program.cs
+C:\Users\dylan\OneDrive\Escritorio\Nueva carpeta (3)\lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999\Bank\Bank.WebApi\obj\Debug\net8.0\Bank.WebApi.GlobalUsings.g.cs
+C:\Users\dylan\OneDrive\Escritorio\Nueva carpeta (3)\lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999\Bank\Bank.WebApi\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+C:\Users\dylan\OneDrive\Escritorio\Nueva carpeta (3)\lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999\Bank\Bank.WebApi\obj\Debug\net8.0\Bank.WebApi.AssemblyInfo.cs
+C:\Users\dylan\OneDrive\Escritorio\Nueva carpeta (3)\lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999\Bank\Bank.WebApi\obj\Debug\net8.0\Bank.WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\dylan\OneDrive\Escritorio\Nueva carpeta (3)\lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999\Bank\Bank.WebApi\appsettings.Development.json
+C:\Users\dylan\OneDrive\Escritorio\Nueva carpeta (3)\lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999\Bank\Bank.WebApi\appsettings.json
+C:\Users\dylan\OneDrive\Escritorio\Nueva carpeta (3)\lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999\Bank\Bank.WebApi\Bank.WebApi.http
+C:\Users\dylan\OneDrive\Escritorio\Nueva carpeta (3)\lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999\Bank\Bank.WebApi\Properties\launchSettings.json

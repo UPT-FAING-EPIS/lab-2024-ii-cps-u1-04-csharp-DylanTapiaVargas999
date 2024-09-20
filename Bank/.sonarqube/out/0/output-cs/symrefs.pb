@@ -1,23 +1,22 @@
-æ
-vC:\Users\HP\Desktop\Nueva carpeta\lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999\Bank\Bank.WebApi\WeatherForecast.cs
+Ù
+ÅC:\Users\dylan\OneDrive\Escritorio\Nueva carpeta (3)\lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999\Bank\Bank.WebApi\Program.cs$
+   
+ @
+      '' 
+  ) 2
+ "" 
+2 77 <
 
- 
+)) 
 
- 
- 		* 6
+))  $
 
-		 
+))* 6
 
- Ë
-nC:\Users\HP\Desktop\Nueva carpeta\lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999\Bank\Bank.WebApi\Program.cs,
-    
-
-
- H
-
-
-        ã
-yC:\Users\HP\Desktop\Nueva carpeta\lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999\Bank\Bank.WebApi\Models\BankAccount.cs
+))@ G
+
+++ ü
+åC:\Users\dylan\OneDrive\Escritorio\Nueva carpeta (3)\lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999\Bank\Bank.WebApi\Models\BankAccount.cs
 
  
   .
@@ -37,12 +36,4 @@ yC:\Users\HP\Desktop\Nueva carpeta\lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas
 ! '   
 
  
-" (  ù
-åC:\Users\HP\Desktop\Nueva carpeta\lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999\Bank\Bank.WebApi\Controllers\WeatherForecastController.cs
- & 6- F
-		% . 3 <
-8 ? 
-H N 
-
-( +
-- 2> C
+" (  

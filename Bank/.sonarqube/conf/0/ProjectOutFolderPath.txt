@@ -1,1 +1,1 @@
-C:\Users\HP\Desktop\Nueva carpeta\lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999\Bank\.sonarqube\out\0
+C:\Users\dylan\OneDrive\Escritorio\Nueva carpeta (3)\lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999\Bank\.sonarqube\out\0

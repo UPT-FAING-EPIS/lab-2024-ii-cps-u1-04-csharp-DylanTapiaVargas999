@@ -5,80 +5,65 @@
     {
       "tool": {
         "name": "Compilador de Microsoft (R) Visual C#",
-        "version": "4.5.0.0",
-        "fileVersion": "4.5.0-3.23070.7 (5964d1a8)",
-        "semanticVersion": "4.5.0",
-        "language": "es-ES"
+        "version": "4.10.0.0",
+        "fileVersion": "4.10.0-3.24365.5 (1f9b00a8)",
+        "semanticVersion": "4.10.0",
+        "language": "es-MX"
       },
       "results": [
         {
-          "ruleId": "CS0246",
-          "level": "error",
-          "message": "El nombre del tipo o del espacio de nombres 'NUnit' no se encontró (¿falta una directiva using o una referencia de ensamblado?)",
+          "ruleId": "NUnit2045",
+          "level": "note",
+          "message": "Call independent Assert statements from inside an Assert.Multiple",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/HP/Desktop/Nueva%20carpeta/lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999/Bank/Bank.WebApi.Tests/BanckAccountTests.cs",
+                "uri": "file:///C:/Users/dylan/OneDrive/Escritorio/Nueva%20carpeta%20(3)/lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999/Bank/Bank.WebApi.Tests/BankAccountTests.cs",
                 "region": {
-                  "startLine": 2,
-                  "startColumn": 7,
-                  "endLine": 2,
-                  "endColumn": 12
+                  "startLine": 98,
+                  "startColumn": 13,
+                  "endLine": 98,
+                  "endColumn": 122
                 }
               }
             }
-          ]
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
         },
         {
-          "ruleId": "CS0246",
-          "level": "error",
-          "message": "El nombre del tipo o del espacio de nombres 'TestAttribute' no se encontró (¿falta una directiva using o una referencia de ensamblado?)",
+          "ruleId": "NUnit2045",
+          "level": "note",
+          "message": "Call independent Assert statements from inside an Assert.Multiple",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/HP/Desktop/Nueva%20carpeta/lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999/Bank/Bank.WebApi.Tests/BanckAccountTests.cs",
+                "uri": "file:///C:/Users/dylan/OneDrive/Escritorio/Nueva%20carpeta%20(3)/lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999/Bank/Bank.WebApi.Tests/BankAccountTests.cs",
                 "region": {
-                  "startLine": 8,
-                  "startColumn": 10,
-                  "endLine": 8,
-                  "endColumn": 14
+                  "startLine": 180,
+                  "startColumn": 13,
+                  "endLine": 180,
+                  "endColumn": 122
                 }
               }
             }
-          ]
-        },
-        {
-          "ruleId": "CS0246",
-          "level": "error",
-          "message": "El nombre del tipo o del espacio de nombres 'Test' no se encontró (¿falta una directiva using o una referencia de ensamblado?)",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/HP/Desktop/Nueva%20carpeta/lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999/Bank/Bank.WebApi.Tests/BanckAccountTests.cs",
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 10,
-                  "endLine": 8,
-                  "endColumn": 14
-                }
-              }
-            }
-          ]
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
         }
       ],
       "rules": {
-        "CS0246": {
-          "id": "CS0246",
-          "defaultLevel": "error",
-          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0246)",
+        "NUnit2045": {
+          "id": "NUnit2045",
+          "shortDescription": "Use Assert.Multiple",
+          "fullDescription": "Hosting Asserts inside an Assert.Multiple allows detecting more than one failure.",
+          "defaultLevel": "note",
+          "helpUri": "https://github.com/nunit/nunit.analyzers/tree/master/documentation/NUnit2045.md",
           "properties": {
-            "category": "Compiler",
-            "isEnabledByDefault": true,
-            "tags": [
-              "Compiler",
-              "Telemetry",
-              "NotConfigurable"
-            ]
+            "category": "Assertion",
+            "isEnabledByDefault": true
           }
         }
       }

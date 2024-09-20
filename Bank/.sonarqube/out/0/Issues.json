@@ -5,10 +5,10 @@
     {
       "tool": {
         "name": "Compilador de Microsoft (R) Visual C#",
-        "version": "4.5.0.0",
-        "fileVersion": "4.5.0-3.23070.7 (5964d1a8)",
-        "semanticVersion": "4.5.0",
-        "language": "es-ES"
+        "version": "4.10.0.0",
+        "fileVersion": "4.10.0-3.24365.5 (1f9b00a8)",
+        "semanticVersion": "4.10.0",
+        "language": "es-MX"
       },
       "results": [
         {
@@ -18,7 +18,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/HP/Desktop/Nueva%20carpeta/lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999/Bank/Bank.WebApi/Models/BankAccount.cs",
+                "uri": "file:///C:/Users/dylan/OneDrive/Escritorio/Nueva%20carpeta%20(3)/lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999/Bank/Bank.WebApi/Models/BankAccount.cs",
                 "region": {
                   "startLine": 7,
                   "startColumn": 17,
@@ -31,7 +31,7 @@
           "relatedLocations": [
             {
               "physicalLocation": {
-                "uri": "file:///C:/Users/HP/Desktop/Nueva%20carpeta/lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999/Bank/Bank.WebApi/Models/BankAccount.cs",
+                "uri": "file:///C:/Users/dylan/OneDrive/Escritorio/Nueva%20carpeta%20(3)/lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999/Bank/Bank.WebApi/Models/BankAccount.cs",
                 "region": {
                   "startLine": 5,
                   "startColumn": 33,
@@ -46,18 +46,18 @@
           }
         },
         {
-          "ruleId": "S4487",
+          "ruleId": "S3903",
           "level": "warning",
-          "message": "Remove this unread private field '_logger' or refactor the code to use its value.",
+          "message": "Move 'WeatherForecast' into a named namespace.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/HP/Desktop/Nueva%20carpeta/lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999/Bank/Bank.WebApi/Controllers/WeatherForecastController.cs",
+                "uri": "file:///C:/Users/dylan/OneDrive/Escritorio/Nueva%20carpeta%20(3)/lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999/Bank/Bank.WebApi/Program.cs",
                 "region": {
-                  "startLine": 14,
-                  "startColumn": 57,
-                  "endLine": 14,
-                  "endColumn": 64
+                  "startLine": 41,
+                  "startColumn": 8,
+                  "endLine": 41,
+                  "endColumn": 23
                 }
               }
             }
@@ -69,11 +69,11 @@
         {
           "ruleId": "CA1507",
           "level": "note",
-          "message": "Use nameof in place of string literal 'amount'",
+          "message": "Use nameof en lugar del literal de cadena \"amount\"",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/HP/Desktop/Nueva%20carpeta/lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999/Bank/Bank.WebApi/Models/BankAccount.cs",
+                "uri": "file:///C:/Users/dylan/OneDrive/Escritorio/Nueva%20carpeta%20(3)/lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999/Bank/Bank.WebApi/Models/BankAccount.cs",
                 "region": {
                   "startLine": 18,
                   "startColumn": 55,
@@ -90,32 +90,11 @@
         {
           "ruleId": "CA1507",
           "level": "note",
-          "message": "Use nameof in place of string literal 'amount'",
+          "message": "Use nameof en lugar del literal de cadena \"amount\"",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/HP/Desktop/Nueva%20carpeta/lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999/Bank/Bank.WebApi/Models/BankAccount.cs",
-                "region": {
-                  "startLine": 20,
-                  "startColumn": 55,
-                  "endLine": 20,
-                  "endColumn": 63
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CA1507",
-          "level": "note",
-          "message": "Use nameof in place of string literal 'amount'",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/HP/Desktop/Nueva%20carpeta/lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999/Bank/Bank.WebApi/Models/BankAccount.cs",
+                "uri": "file:///C:/Users/dylan/OneDrive/Escritorio/Nueva%20carpeta%20(3)/lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999/Bank/Bank.WebApi/Models/BankAccount.cs",
                 "region": {
                   "startLine": 26,
                   "startColumn": 55,
@@ -130,17 +109,160 @@
           }
         },
         {
+          "ruleId": "CA1507",
+          "level": "note",
+          "message": "Use nameof en lugar del literal de cadena \"amount\"",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/dylan/OneDrive/Escritorio/Nueva%20carpeta%20(3)/lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999/Bank/Bank.WebApi/Models/BankAccount.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 55,
+                  "endLine": 20,
+                  "endColumn": 63
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1512",
+          "level": "note",
+          "message": "Use 'ArgumentOutOfRangeException.ThrowIfNegative' en lugar de iniciar explícitamente una nueva instancia de excepción",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/dylan/OneDrive/Escritorio/Nueva%20carpeta%20(3)/lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999/Bank/Bank.WebApi/Models/BankAccount.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 13,
+                  "endLine": 26,
+                  "endColumn": 65
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/dylan/OneDrive/Escritorio/Nueva%20carpeta%20(3)/lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999/Bank/Bank.WebApi/Models/BankAccount.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 17,
+                  "endLine": 25,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "MethodNameProperty": "ThrowIfNegative"
+            }
+          }
+        },
+        {
+          "ruleId": "CA1512",
+          "level": "note",
+          "message": "Use 'ArgumentOutOfRangeException.ThrowIfGreaterThan' en lugar de iniciar explícitamente una nueva instancia de excepción",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/dylan/OneDrive/Escritorio/Nueva%20carpeta%20(3)/lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999/Bank/Bank.WebApi/Models/BankAccount.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 13,
+                  "endLine": 18,
+                  "endColumn": 65
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/dylan/OneDrive/Escritorio/Nueva%20carpeta%20(3)/lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999/Bank/Bank.WebApi/Models/BankAccount.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 17,
+                  "endLine": 17,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/dylan/OneDrive/Escritorio/Nueva%20carpeta%20(3)/lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999/Bank/Bank.WebApi/Models/BankAccount.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 26,
+                  "endLine": 17,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "MethodNameProperty": "ThrowIfGreaterThan"
+            }
+          }
+        },
+        {
+          "ruleId": "CA1512",
+          "level": "note",
+          "message": "Use 'ArgumentOutOfRangeException.ThrowIfNegative' en lugar de iniciar explícitamente una nueva instancia de excepción",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/dylan/OneDrive/Escritorio/Nueva%20carpeta%20(3)/lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999/Bank/Bank.WebApi/Models/BankAccount.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 13,
+                  "endLine": 20,
+                  "endColumn": 65
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/dylan/OneDrive/Escritorio/Nueva%20carpeta%20(3)/lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999/Bank/Bank.WebApi/Models/BankAccount.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 17,
+                  "endLine": 19,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "MethodNameProperty": "ThrowIfNegative"
+            }
+          }
+        },
+        {
           "ruleId": "S6966",
           "level": "warning",
           "message": "Await RunAsync instead.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/HP/Desktop/Nueva%20carpeta/lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999/Bank/Bank.WebApi/Program.cs",
+                "uri": "file:///C:/Users/dylan/OneDrive/Escritorio/Nueva%20carpeta%20(3)/lab-2024-ii-cps-u1-04-csharp-DylanTapiaVargas999/Bank/Bank.WebApi/Program.cs",
                 "region": {
-                  "startLine": 25,
+                  "startLine": 39,
                   "startColumn": 1,
-                  "endLine": 25,
+                  "endLine": 39,
                   "endColumn": 10
                 }
               }
@@ -154,10 +276,25 @@
       "rules": {
         "CA1507": {
           "id": "CA1507",
-          "shortDescription": "Use nameof to express symbol names",
-          "fullDescription": "Using nameof helps keep your code valid when refactoring.",
+          "shortDescription": "Use nameof para expresar nombres de símbolos",
+          "fullDescription": "El uso de nameof ayuda a mantener el código válido durante la refactorización.",
           "defaultLevel": "note",
           "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1507",
+          "properties": {
+            "category": "Maintainability",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CA1512": {
+          "id": "CA1512",
+          "shortDescription": "Uso del asistente de inicio ArgumentOutOfRangeException",
+          "fullDescription": "Los asistentes de inicio son más sencillos y eficaces que un bloque if que construye una nueva instancia de excepción.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1512",
           "properties": {
             "category": "Maintainability",
             "isEnabledByDefault": true,
@@ -181,14 +318,14 @@
             ]
           }
         },
-        "S4487": {
-          "id": "S4487",
-          "shortDescription": "Unread \"private\" fields should be removed",
-          "fullDescription": "Private fields which are written but never read are a case of \"dead store\". Changing the value of such a field is useless and most probably indicates an error in the code.",
+        "S3903": {
+          "id": "S3903",
+          "shortDescription": "Types should be defined in named namespaces",
+          "fullDescription": "Types are declared in namespaces in order to prevent name collisions and as a way to organize them into the object hierarchy. Types that are defined outside any named namespace are in a global namespace that cannot be referenced in code.",
           "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-4487",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3903",
           "properties": {
-            "category": "Critical Code Smell",
+            "category": "Major Bug",
             "isEnabledByDefault": true,
             "tags": [
               "C#",

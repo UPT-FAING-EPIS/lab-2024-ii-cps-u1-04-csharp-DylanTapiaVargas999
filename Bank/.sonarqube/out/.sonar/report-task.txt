@@ -3,5 +3,5 @@ projectKey=dylanorganizacion_apibank
 serverUrl=https://sonarcloud.io
 serverVersion=8.0.0.56697
 dashboardUrl=https://sonarcloud.io/dashboard?id=dylanorganizacion_apibank
-ceTaskId=AZINFy8vxVa6CIPr6wqq
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZINFy8vxVa6CIPr6wqq
+ceTaskId=AZIN-PcK4W9j6hOyjnSG
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZIN-PcK4W9j6hOyjnSG
