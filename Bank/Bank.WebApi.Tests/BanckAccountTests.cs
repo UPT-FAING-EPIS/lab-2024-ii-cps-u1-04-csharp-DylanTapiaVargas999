@@ -1,5 +1,6 @@
 using Bank.WebApi.Models;
 using NUnit.Framework;
+using NUnitAssert = NUnit.Framework.Assert;
 
 namespace Bank.Domain.Tests
 {
@@ -17,7 +18,7 @@ namespace Bank.Domain.Tests
             account.Debit(debitAmount);
             // Assert
             double actual = account.Balance;
-            Assert.AreEqual(expected, actual, 0.001, "Account not debited correctly");
+            NUnitAssert.AreEqual(expected, actual, 0.001, "Account not debited correctly");
         }
     }
 }
