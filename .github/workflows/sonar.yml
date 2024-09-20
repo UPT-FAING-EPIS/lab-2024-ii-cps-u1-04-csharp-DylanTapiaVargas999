@@ -1,6 +1,6 @@
 name: Integración Continua Sonar
 env:
-  DOTNET_VERSION: '8.0'                     # la versión de .NET
+  DOTNET_VERSION: '7.0'                     # la versión de .NET
   SONAR_ORG: 'dylanorganizacion'            # Nombre de la organización en SonarCloud
   SONAR_PROJECT: 'dylanorganizacion_apibank' # Key ID del proyecto en SonarCloud
 on:
